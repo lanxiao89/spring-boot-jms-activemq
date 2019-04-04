@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-boot-jms-activemq
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: password
+    packages:
+      trust-all: true
+
